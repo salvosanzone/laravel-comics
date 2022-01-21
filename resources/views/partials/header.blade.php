@@ -1,4 +1,4 @@
-@dump(Route::currentRouteName())
+{{-- @dump(Route::currentRouteName()) --}}
 <header>
   <div class="container">
     <div class="logo">
@@ -7,10 +7,10 @@
   <div class="menu">
     <ul>
       <li>
-        <a class="{{ (Route::currentRouteName() === characters)? 'active' : '' }}" href="{{route('characters')}}">CHARACTERS</a>
+        <a class="{{ (Route::currentRouteName() === 'characters')? 'active' : '' }}" href="{{route('characters')}}">CHARACTERS</a>
       </li>
       <li>
-        <a class="active" href="">COMICS</a>
+        <a class="" href="">COMICS</a>
       </li>
       <li>
         <a class="" href="">MOVIES</a>
