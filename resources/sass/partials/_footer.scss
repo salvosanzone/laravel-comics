@@ -2,7 +2,6 @@ footer{
   .top-footer{
     display: flex;
     justify-content: center;
-    height: 265px;
     background-image: url('../img/footer-bg.jpg');
     .container{
       color: white;
@@ -54,7 +53,6 @@ footer{
       }
       .socials{
         display: flex;
-        align-items: center;
         i{
           cursor: pointer;
         }

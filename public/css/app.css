@@ -141,7 +141,6 @@ header ul li a.active, header ul li a:hover {
 footer .top-footer {
   display: flex;
   justify-content: center;
-  height: 265px;
   background-image: url("../img/footer-bg.jpg");
 }
 footer .top-footer .container {
@@ -195,7 +194,6 @@ footer .bottom-footer .container h5 {
 }
 footer .bottom-footer .container .socials {
   display: flex;
-  align-items: center;
 }
 footer .bottom-footer .container .socials i {
   cursor: pointer;
