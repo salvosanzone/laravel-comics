@@ -14,11 +14,8 @@
   @include('partials.header')
 
   {{-- 
-
     .1 questa pagina ad esclusione, in questo caso, del jumbotron e information, deve essere presente in tutte le pagine 
-
     .2 in questo punto carico i contenuti diversi delle varie pagine
-
   --}}
 
   @yield('content')
